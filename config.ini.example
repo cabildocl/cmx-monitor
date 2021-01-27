@@ -1,0 +1,9 @@
+
+[CONFIG]
+CMX = https://ip_cmx:port/
+CMX_USER=user
+CMX_PASS=password
+TOKEN_ID = tonken_id
+GROUP_ID = group_id
+MESSAGE1 = message_for_telegram
+MESSAGE2 = other_message_for_telegram

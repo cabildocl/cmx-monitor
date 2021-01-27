@@ -17,7 +17,7 @@ message2 = config["CONFIG"]["MESSAGE2"]
 counter_client = "api/location/v2/clients/count"
 url_counter=cmx+counter_client
 try:
-        api_counter = requests.request(method="GET", timeout=1 , url=url_counter, auth=(cmx_user, cmx_pass), verify=False)
+        api_counter = requests.request(method="GET", timeout=3 , url=url_counter, auth=(cmx_user, cmx_pass), verify=False)
 except:
         estado = 0
         print(estado)
